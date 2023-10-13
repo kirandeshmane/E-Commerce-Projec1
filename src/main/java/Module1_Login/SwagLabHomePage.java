@@ -7,10 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SwagLabHomePage 
 {
-    @FindBy(xpath="//div[@class='app_logo']") WebElement Logo;
-    @FindBy(xpath="//div[@class='bm-burger-button']") WebElement menuBtn;
-    @FindBy(xpath="//button[@id='add-to-cart-sauce-labs-backpack']") WebElement clickonAddtoCart;
-    @FindBy(xpath="//button[@id='remove-sauce-labs-backpack']") WebElement RemoveBtn;
+    @FindBy(xpath="//div[@class='app_logo']") private WebElement Logo;
+    @FindBy(xpath="//div[@class='bm-burger-button']") private WebElement menuBtn;
+    @FindBy(xpath="//button[@id='add-to-cart-sauce-labs-backpack']") private WebElement clickonAddtoCart;
+    @FindBy(xpath="//button[@id='remove-sauce-labs-backpack']") private WebElement RemoveBtn;
     
     public SwagLabHomePage (WebDriver driver)
     {
